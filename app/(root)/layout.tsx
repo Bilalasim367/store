@@ -13,6 +13,10 @@ export default async function RootLayout({
       <Header />
       <main className='flex-1 flex flex-col p-4'>{children}</main>
       <Footer />
+
+
+
+      
     </div>
   )
 }
